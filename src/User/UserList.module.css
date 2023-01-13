@@ -13,5 +13,11 @@
     border: 1px solid #ccc;
     margin: 0.5rem 0;
     padding: 0.5rem;
-    /* color: aqua; */
+  }
+
+  .list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2px 0;
   }
