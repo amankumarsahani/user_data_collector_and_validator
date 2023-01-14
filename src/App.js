@@ -14,10 +14,10 @@ function App() {
   }
 
   return (
-    <div>
+    <React.Fragment>
     <AddUser addData={addData}/>
     <UserList data={data}/>
-    </div>
+    </React.Fragment>
   );
 }
 
